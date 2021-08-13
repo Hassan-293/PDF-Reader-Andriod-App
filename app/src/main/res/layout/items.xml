@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp"
+    android:layout_gravity="center_horizontal"
+    android:elevation="4dp"
+    app:cardUseCompatPadding="true"
+    android:background="#6A6464"
+    app:cardBackgroundColor="#E4D6D6">
+
+
+    <ImageView
+        android:id="@+id/image_pdf"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:padding="5dp"
+        android:src="@drawable/ic_baseline_picture_as_pdf_24"
+        />
+
+
+    <TextView
+        android:id="@+id/pdf_files"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="68dp"
+        android:layout_marginRight="20dp"
+        android:layout_toEndOf="@id/image_pdf"
+        android:text="Text"
+        android:textSize="15dp"
+
+
+        />
+
+
+</androidx.cardview.widget.CardView>
